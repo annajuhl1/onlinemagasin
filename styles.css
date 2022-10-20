@@ -1,0 +1,195 @@
+/*Gitter baggrund*/
+body {
+    background-image: url(images/baggrundsgitter.gif);
+    background-repeat:repeat;
+    padding-top: 10px ;
+}
+
+/*LOGO*/
+header > a{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+    text-align: center;
+    text-decoration:none;
+    color: black;  
+}
+
+#forsidebillede{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    padding-left: 25%;
+    padding-right: 20%;
+    width: 700px;
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 15px;
+    background-color: blue;
+    color: black;
+    justify-content: space-around;
+    }
+        
+nav > a:hover{
+   color:white;
+    }
+
+/*Artikler*/
+.cardscontainer {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.cardscontainer div{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.cardscontainer div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.cardscontainer div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+.cardscontainer div:hover{
+    border: 1px solid blue;
+}
+
+.cardscontainer div > a{
+    text-decoration:none;
+}
+
+/*footer*/
+footer{
+background-color: white;
+text-align: center; 
+border: 2px solid black;
+padding-top: 50px;
+padding-right: 50px;
+padding-left: 50px;
+padding-bottom: 50px;
+margin: 70px;
+} 
+
+footer div h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color: black;
+} 
+
+footer div > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color: black;
+    justify-content: space-around;
+    } 
+
+footer div > a:hover{
+    color: blue;
+} 
+
+
+/*header på alle artikeler*/
+article header h1{
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border: 2px solid blue;
+    color: black;
+    text-decoration:none;
+}
+
+article header h2{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border: 2px solid blue;
+    text-decoration:none;
+}
+
+/*mode artikel*/
+.cardscontainermode{
+    display: flex;
+    justify-content: center;
+}
+
+.cardscontainermode div{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+    border: 2px solid blue;
+    color: black;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px;
+}
+
+.cardscontainermode a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*kultur artikel*/
+.cardscontainerkultur{
+    display: flex;
+    justify-content: center;  
+}
+
+.cardscontainerkultur div{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+    border: 2px solid blue;
+    color: black;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px;
+}
+
+
+/*mad artikel*/
+.cardscontainerpizza{
+    display: flex;
+    justify-content: center;
+}
+
+.cardscontainerpizza div{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+    border: 2px solid blue;
+    color: black;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px;
+}
+
+
+
